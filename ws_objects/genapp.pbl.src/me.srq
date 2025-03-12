@@ -1,0 +1,2 @@
+﻿$PBExportHeader$me.srq
+PBSELECT( VERSION(400) TABLE(NAME="products" ) COLUMN(NAME="products.id") COLUMN(NAME="products.product_name") COLUMN(NAME="products.price") COLUMN(NAME="products.availability")WHERE(    EXP1 ="~"products~".~"id~""   OP ="="    EXP2 =":id" ) ) ARG(NAME = "id" TYPE = number) 
