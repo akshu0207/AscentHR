@@ -721,6 +721,8 @@ this.text = "&Close~tCtrl+W"
 this.enabled = false
 this.shortcut = 343
 this.microhelp = "Close active sheet"
+this.toolbaritemname = "Close!"
+this.toolbaritemtext = "close,close"
 this.menutextcolor = 134217735
 this.menubackcolor = 134217732
 this.menuhighlightcolor = 134217741
@@ -1147,9 +1149,10 @@ end event
 on m_cut.create
 call super::create
 this.text = "Cu&t~tCtrl+X"
-this.enabled = false
 this.shortcut = 344
 this.microhelp = "Cut text to clipboard"
+this.toolbaritemname = "Cut!"
+this.toolbaritemtext = "cut"
 this.menutextcolor = 134217735
 this.menubackcolor = 134217732
 this.menuhighlightcolor = 134217741
@@ -1189,9 +1192,10 @@ end event
 on m_copy.create
 call super::create
 this.text = "&Copy~tCtrl+C"
-this.enabled = false
 this.shortcut = 323
 this.microhelp = "Copy text to clipboard"
+this.toolbaritemname = "Copy!"
+this.toolbaritemtext = "copy"
 this.menutextcolor = 134217735
 this.menubackcolor = 134217732
 this.menuhighlightcolor = 134217741
@@ -1231,9 +1235,10 @@ end event
 on m_paste.create
 call super::create
 this.text = "&Paste~tCtrl+V"
-this.enabled = false
 this.shortcut = 342
 this.microhelp = "Paste text from clipboard"
+this.toolbaritemname = "Paste!"
+this.toolbaritemtext = "paste"
 this.menutextcolor = 134217735
 this.menubackcolor = 134217732
 this.menuhighlightcolor = 134217741
@@ -1273,8 +1278,9 @@ end event
 on m_clear.create
 call super::create
 this.text = "Clear"
-this.enabled = false
 this.microhelp = "Clear text"
+this.toolbaritemname = "Clear!"
+this.toolbaritemtext = "clear"
 this.menutextcolor = 134217735
 this.menubackcolor = 134217732
 this.menuhighlightcolor = 134217741

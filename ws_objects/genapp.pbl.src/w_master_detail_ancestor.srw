@@ -83,6 +83,20 @@ dw_detail.settransobject ( sqlca )
 this.EVENT ue_retrieve()
 end event
 
+event ue_clear;call super::ue_clear;dw_detail.ReplaceText("")
+end event
+
+event ue_copy;call super::ue_copy;dw_detail.copy()
+dw_master.copy()
+end event
+
+event ue_cut;call super::ue_cut;dw_detail.cut()
+end event
+
+event ue_paste;call super::ue_paste;dw_detail.paste()
+dw_master.paste()
+end event
+
 type dw_detail from u_dwstandard within w_master_detail_ancestor
 integer x = 119
 integer y = 444
