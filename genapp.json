@@ -24,7 +24,7 @@
         "BuildJob": {
             "PreCommand": "",
             "Projects": [
-                {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.pbt","Name": "p_genapp_exe"}
+                {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.pbt","Name": "p_genapp_exe"}
             ],
             "PostCommand": ""
         }
@@ -108,7 +108,7 @@
                 }
             },
             "Run": {
-                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.exe",
+                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.exe",
                 "Arguments": "",
                 "StartIn": "",
                 "RuntimePathInApplicationXML": ""
