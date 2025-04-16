@@ -24,7 +24,11 @@
         "BuildJob": {
             "PreCommand": "",
             "Projects": [
+<<<<<<< HEAD
                 {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\qa\\genapp.pbt","Name": "p_genapp_exe"}
+=======
+                {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.pbt","Name": "p_genapp_exe"}
+>>>>>>> features
             ],
             "PostCommand": ""
         }
@@ -34,7 +38,11 @@
             "ProjectType": 0,
             "//ProjectType": "0: PB Native; 1: PowerClient; 2: PowerServer; 3: PowerServer 1.0; ",
             "General": {
+<<<<<<< HEAD
                 "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_qa\\genapp.exe",
+=======
+                "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_features\\genapp.exe",
+>>>>>>> features
                 "ResourceFileName": "",
                 "ProjectBuildOptions": {
                     "PromptForOverwrite": false,
@@ -108,7 +116,11 @@
                 }
             },
             "Run": {
+<<<<<<< HEAD
                 "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\qa\\genapp.exe",
+=======
+                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.exe",
+>>>>>>> features
                 "Arguments": "",
                 "StartIn": "",
                 "RuntimePathInApplicationXML": ""
