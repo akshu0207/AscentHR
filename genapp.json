@@ -26,6 +26,7 @@
             "Projects": [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.pbt","Name": "p_genapp_exe"}
 =======
 <<<<<<< HEAD
@@ -37,6 +38,9 @@
 =======
                 {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.pbt","Name": "p_genapp_exe"}
 >>>>>>> qa
+=======
+                {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.pbt","Name": "p_genapp_exe"}
+>>>>>>> deb32cc6c80aeeada074c4cbd0da956adf5d445d
             ],
             "PostCommand": ""
         }
@@ -46,6 +50,7 @@
             "ProjectType": 0,
             "//ProjectType": "0: PB Native; 1: PowerClient; 2: PowerServer; 3: PowerServer 1.0; ",
             "General": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_production\\genapp.exe",
@@ -59,6 +64,9 @@
 =======
                 "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_qa\\genapp.exe",
 >>>>>>> qa
+=======
+                "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_qa\\genapp.exe",
+>>>>>>> deb32cc6c80aeeada074c4cbd0da956adf5d445d
                 "ResourceFileName": "",
                 "ProjectBuildOptions": {
                     "PromptForOverwrite": false,
@@ -134,6 +142,7 @@
             "Run": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\production\\genapp.exe",
 =======
 <<<<<<< HEAD
@@ -145,6 +154,9 @@
 =======
                 "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.exe",
 >>>>>>> qa
+=======
+                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.exe",
+>>>>>>> deb32cc6c80aeeada074c4cbd0da956adf5d445d
                 "Arguments": "",
                 "StartIn": "",
                 "RuntimePathInApplicationXML": ""
