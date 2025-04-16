@@ -25,6 +25,7 @@
             "PreCommand": "",
             "Projects": [
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.pbt","Name": "p_genapp_exe"}
 =======
 <<<<<<< HEAD
@@ -32,6 +33,9 @@
 =======
                 {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.pbt","Name": "p_genapp_exe"}
 >>>>>>> features
+>>>>>>> qa
+=======
+                {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.pbt","Name": "p_genapp_exe"}
 >>>>>>> qa
             ],
             "PostCommand": ""
@@ -43,6 +47,7 @@
             "//ProjectType": "0: PB Native; 1: PowerClient; 2: PowerServer; 3: PowerServer 1.0; ",
             "General": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_production\\genapp.exe",
 =======
 <<<<<<< HEAD
@@ -50,6 +55,9 @@
 =======
                 "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_features\\genapp.exe",
 >>>>>>> features
+>>>>>>> qa
+=======
+                "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_qa\\genapp.exe",
 >>>>>>> qa
                 "ResourceFileName": "",
                 "ProjectBuildOptions": {
@@ -125,6 +133,7 @@
             },
             "Run": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\production\\genapp.exe",
 =======
 <<<<<<< HEAD
@@ -133,10 +142,13 @@
                 "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.exe",
 >>>>>>> features
 >>>>>>> qa
+=======
+                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.exe",
+>>>>>>> qa
                 "Arguments": "",
                 "StartIn": "",
                 "RuntimePathInApplicationXML": ""
             }
         }
     }
-}
+ }
