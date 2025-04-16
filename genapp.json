@@ -108,7 +108,7 @@
                 }
             },
             "Run": {
-                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.exe",
+                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.exe",
                 "Arguments": "",
                 "StartIn": "",
                 "RuntimePathInApplicationXML": ""
