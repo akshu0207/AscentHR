@@ -26,6 +26,7 @@
             "Projects": [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\qa\\genapp.pbt","Name": "p_genapp_exe"}
 =======
                 {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.pbt","Name": "p_genapp_exe"}
@@ -33,6 +34,9 @@
 =======
                 {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.pbt","Name": "p_genapp_exe"}
 >>>>>>> features
+=======
+                {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.pbt","Name": "p_genapp_exe"}
+>>>>>>> 9d213eb1810264e0662bd3d94cef46aa568a7b85
             ],
             "PostCommand": ""
         }
@@ -126,6 +130,7 @@
             "Run": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\qa\\genapp.exe",
 =======
                 "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.exe",
@@ -133,6 +138,9 @@
 =======
                 "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.exe",
 >>>>>>> features
+=======
+                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.exe",
+>>>>>>> 9d213eb1810264e0662bd3d94cef46aa568a7b85
                 "Arguments": "",
                 "StartIn": "",
                 "RuntimePathInApplicationXML": ""
