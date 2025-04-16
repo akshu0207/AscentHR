@@ -24,19 +24,7 @@
         "BuildJob": {
             "PreCommand": "",
             "Projects": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-                {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\qa\\genapp.pbt","Name": "p_genapp_exe"}
-=======
-                {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.pbt","Name": "p_genapp_exe"}
->>>>>>> features
-=======
                 {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.pbt","Name": "p_genapp_exe"}
->>>>>>> features
-=======
-                {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.pbt","Name": "p_genapp_exe"}
->>>>>>> 9d213eb1810264e0662bd3d94cef46aa568a7b85
             ],
             "PostCommand": ""
         }
@@ -46,15 +34,6 @@
             "ProjectType": 0,
             "//ProjectType": "0: PB Native; 1: PowerClient; 2: PowerServer; 3: PowerServer 1.0; ",
             "General": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-                "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_qa\\genapp.exe",
-=======
-                "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_features\\genapp.exe",
->>>>>>> features
-=======
-                "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_features\\genapp.exe",
->>>>>>> features
                 "ResourceFileName": "",
                 "ProjectBuildOptions": {
                     "PromptForOverwrite": false,
@@ -128,19 +107,7 @@
                 }
             },
             "Run": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
                 "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\qa\\genapp.exe",
-=======
-                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\features\\genapp.exe",
->>>>>>> features
-=======
-                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.exe",
->>>>>>> features
-=======
-                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.exe",
->>>>>>> 9d213eb1810264e0662bd3d94cef46aa568a7b85
                 "Arguments": "",
                 "StartIn": "",
                 "RuntimePathInApplicationXML": ""
