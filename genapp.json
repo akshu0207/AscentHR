@@ -34,7 +34,7 @@
             "ProjectType": 0,
             "//ProjectType": "0: PB Native; 1: PowerClient; 2: PowerServer; 3: PowerServer 1.0; ",
             "General": {
-                "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_production\\genapp.exe",
+                "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_new\\genapp.exe",
                 "ResourceFileName": "",
                 "ProjectBuildOptions": {
                     "PromptForOverwrite": false,
