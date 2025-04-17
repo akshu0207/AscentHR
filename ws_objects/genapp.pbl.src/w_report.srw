@@ -102,8 +102,13 @@ boolean focusrectangle = false
 end type
 
 type cb_generate from commandbutton within w_report
+<<<<<<< HEAD
 integer x = 1015
 integer y = 1536
+=======
+integer x = 997
+integer y = 1532
+>>>>>>> features
 integer width = 613
 integer height = 140
 integer taborder = 50
@@ -128,7 +133,12 @@ IF ls_table = "" THEN
 END IF
 IF ls_columns = "" THEN
     ls_columns = "*"
+<<<<<<< HEAD
 END IF 
+=======
+END IF
+
+>>>>>>> features
 IF ls_layout = "" THEN
     ls_layout = "grid"
 END IF
