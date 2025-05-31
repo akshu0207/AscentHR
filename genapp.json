@@ -1,7 +1,7 @@
-﻿{
+{
     "MetaInfo": {
         "IDEVersion": "220",
-        "RuntimeVersion": "22.2.0.3289"
+        "RuntimeVersion": "22.2.0.3397"
     },
     "BuildPlan": {
         "SourceControl": {
@@ -24,7 +24,7 @@
         "BuildJob": {
             "PreCommand": "",
             "Projects": [
-                {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.pbt","Name": "p_genapp_exe"}
+                {"Target": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.pbt","Name": "p_genapp_exe"}
             ],
             "PostCommand": ""
         }
@@ -34,7 +34,7 @@
             "ProjectType": 0,
             "//ProjectType": "0: PB Native; 1: PowerClient; 2: PowerServer; 3: PowerServer 1.0; ",
             "General": {
-                "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_qa\\genapp.exe",
+                "ExecutableFileName": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.exe",
                 "ResourceFileName": "",
                 "ProjectBuildOptions": {
                     "PromptForOverwrite": false,
@@ -108,11 +108,11 @@
                 }
             },
             "Run": {
-                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.exe",
+                "Application": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.exe",
                 "Arguments": "",
-                "StartIn": "",
+                "StartIn": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\",
                 "RuntimePathInApplicationXML": ""
             }
         }
     }
- }
+}
