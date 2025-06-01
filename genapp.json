@@ -24,7 +24,7 @@
         "BuildJob": {
             "PreCommand": "",
             "Projects": [
-                {"Target": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.pbt","Name": "p_genapp_exe"}
+                {"Target": "C:\\Users\\Administrator\\Desktop\\practice\\genapp.pbt","Name": "p_genapp_exe"}
             ],
             "PostCommand": ""
         }
@@ -34,7 +34,7 @@
             "ProjectType": 0,
             "//ProjectType": "0: PB Native; 1: PowerClient; 2: PowerServer; 3: PowerServer 1.0; ",
             "General": {
-                "ExecutableFileName": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.exe",
+                "ExecutableFileName": "C:\\Users\\Administrator\\Desktop\\practice\\genapp.exe",
                 "ResourceFileName": "",
                 "ProjectBuildOptions": {
                     "PromptForOverwrite": false,
@@ -108,9 +108,9 @@
                 }
             },
             "Run": {
-                "Application": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.exe",
+                "Application": "C:\\Users\\Administrator\\Desktop\\practice\\genapp.exe",
                 "Arguments": "",
-                "StartIn": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\",
+                "StartIn": "C:\\Users\\Administrator\\Desktop\\practice\\",
                 "RuntimePathInApplicationXML": ""
             }
         }
