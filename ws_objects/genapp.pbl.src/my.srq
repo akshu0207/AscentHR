@@ -1,2 +1,0 @@
-﻿$PBExportHeader$my.srq
-PBSELECT( VERSION(400) TABLE(NAME="customers" ) COLUMN(NAME="customers.id") COLUMN(NAME="customers.first_name") COLUMN(NAME="customers.last_name") COLUMN(NAME="customers.city") COLUMN(NAME="customers.state")WHERE(    EXP1 ="~"customers~".~"id~""   OP ="="    EXP2 =":id" ) ) ARG(NAME = "id" TYPE = number) 
