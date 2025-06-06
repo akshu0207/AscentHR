@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{
 =======
 {
@@ -8,6 +9,9 @@
 =======
 {
 >>>>>>> d868514467e3128a2606b2f7a771f5b4f6ff9072
+=======
+{
+>>>>>>> abe42a74cc94b0f0e9c824790564e6aea0c77039
     "MetaInfo": {
         "IDEVersion": "220",
         "RuntimeVersion": "22.2.0.3397"
@@ -80,6 +84,7 @@
             "General": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_production\\genapp.exe",
 =======
                 "ExecutableFileName": "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\final-pb\\genapp.exe",
@@ -87,6 +92,9 @@
 =======
                 "ExecutableFileName": "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\final-pb\\genapp.exe",
 >>>>>>> d868514467e3128a2606b2f7a771f5b4f6ff9072
+=======
+                "ExecutableFileName": "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\final-pb\\genapp.exe",
+>>>>>>> abe42a74cc94b0f0e9c824790564e6aea0c77039
                 "ResourceFileName": "",
                 "ProjectBuildOptions": {
                     "PromptForOverwrite": false,
@@ -157,6 +165,7 @@
             }
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  }
@@ -312,3 +321,6 @@
 =======
 }
 >>>>>>> d868514467e3128a2606b2f7a771f5b4f6ff9072
+=======
+}
+>>>>>>> abe42a74cc94b0f0e9c824790564e6aea0c77039
