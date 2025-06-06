@@ -1,31 +1,70 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{
+=======
+{
+>>>>>>> d07ce4d914d62164771c9f6b2385a06846c5dd3c
     "MetaInfo": {
         "IDEVersion": "220",
-        "RuntimeVersion": "22.2.0.3289"
+        "RuntimeVersion": "22.2.0.3397"
     },
     "BuildPlan": {
         "SourceControl": {
             "PreCommand": "",
             "ClearSrcBeforeDownload": false,
             "SVN": [
-                {"SrcPath": "","User": "","Password": "","DestPath": "","Proxy": {"Ip": "","Port": 0,"Username": "","Password": ""}}
+                {
+                    "SrcPath": "",
+                    "User": "",
+                    "Password": "",
+                    "DestPath": "",
+                    "Proxy": {
+                        "Ip": "",
+                        "Port": 0,
+                        "Username": "",
+                        "Password": ""
+                    }
+                }
             ],
             "Git": [
-                {"SrcPath": "","User": "","Password": "","DestPath": "","Branch": "","Proxy": {"Ip": "","Port": 0,"Username": "","Password": ""}}
+                {
+                    "SrcPath": "",
+                    "User": "",
+                    "Password": "",
+                    "DestPath": "",
+                    "Branch": "",
+                    "Proxy": {
+                        "Ip": "",
+                        "Port": 0,
+                        "Username": "",
+                        "Password": ""
+                    }
+                }
             ],
             "VSS": [
-                {"SrcPath": "","User": "","Password": "","DestPath": ""}
+                {
+                    "SrcPath": "",
+                    "User": "",
+                    "Password": "",
+                    "DestPath": ""
+                }
             ],
             "Merging": [
-                {"Target": "","LocalProjectPath": "","RefreshPbl": true}
+                {
+                    "Target": "",
+                    "LocalProjectPath": "",
+                    "RefreshPbl": true
+                }
             ],
             "PostCommand": ""
         },
         "BuildJob": {
             "PreCommand": "",
             "Projects": [
-                {"Target": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.pbt","Name": "p_genapp_exe"}
+                {
+                    "Target": "C:\\Users\\Administrator\\Desktop\\practice\\genapp.pbt",
+                    "Name": "p_genapp_exe"
+                }
             ],
             "PostCommand": ""
         }
@@ -35,7 +74,7 @@
             "ProjectType": 0,
             "//ProjectType": "0: PB Native; 1: PowerClient; 2: PowerServer; 3: PowerServer 1.0; ",
             "General": {
-                "ExecutableFileName": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\DeployedApp_qa\\genapp.exe",
+                "ExecutableFileName": "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\final-pb\\genapp.exe",
                 "ResourceFileName": "",
                 "ProjectBuildOptions": {
                     "PromptForOverwrite": false,
@@ -85,18 +124,8 @@
                     "FileVersion": "1.0.0.1"
                 },
                 "ExecutableVersionUsedByInstaller": {
-                    "ProductVersion": [
-                        1,
-                        0,
-                        0,
-                        1
-                    ],
-                    "FileVersion": [
-                        1,
-                        0,
-                        0,
-                        1
-                    ]
+                    "ProductVersion": [1, 0, 0, 1],
+                    "FileVersion": [1, 0, 0, 1]
                 }
             },
             "Security": {
@@ -109,13 +138,14 @@
                 }
             },
             "Run": {
-                "Application": "C:\\Users\\Akshaya\\Documents\\Appeon\\PowerBuilder 22.0\\github\\AscentHR\\genapp.exe",
+                "Application": "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\final-pb\\genapp.exe",
                 "Arguments": "",
-                "StartIn": "",
+                "StartIn": "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\final-pb\\",
                 "RuntimePathInApplicationXML": ""
             }
         }
     }
+<<<<<<< HEAD
  }
 =======
 {
@@ -263,3 +293,6 @@
 }
 
 >>>>>>> features
+=======
+}
+>>>>>>> d07ce4d914d62164771c9f6b2385a06846c5dd3c
