@@ -8,58 +8,23 @@
             "PreCommand": "",
             "ClearSrcBeforeDownload": false,
             "SVN": [
-                {
-                    "SrcPath": "",
-                    "User": "",
-                    "Password": "",
-                    "DestPath": "",
-                    "Proxy": {
-                        "Ip": "",
-                        "Port": 0,
-                        "Username": "",
-                        "Password": ""
-                    }
-                }
+                {"SrcPath": "","User": "","Password": "","DestPath": "","Proxy": {"Ip": "","Port": 0,"Username": "","Password": ""}}
             ],
             "Git": [
-                {
-                    "SrcPath": "",
-                    "User": "",
-                    "Password": "",
-                    "DestPath": "",
-                    "Branch": "",
-                    "Proxy": {
-                        "Ip": "",
-                        "Port": 0,
-                        "Username": "",
-                        "Password": ""
-                    }
-                }
+                {"SrcPath": "","User": "","Password": "","DestPath": "","Branch": "","Proxy": {"Ip": "","Port": 0,"Username": "","Password": ""}}
             ],
             "VSS": [
-                {
-                    "SrcPath": "",
-                    "User": "",
-                    "Password": "",
-                    "DestPath": ""
-                }
+                {"SrcPath": "","User": "","Password": "","DestPath": ""}
             ],
             "Merging": [
-                {
-                    "Target": "",
-                    "LocalProjectPath": "",
-                    "RefreshPbl": true
-                }
+                {"Target": "","LocalProjectPath": "","RefreshPbl": true}
             ],
             "PostCommand": ""
         },
         "BuildJob": {
             "PreCommand": "",
             "Projects": [
-                {
-                    "Target": "C:\\Users\\Administrator\\Desktop\\practice\\genapp.pbt",
-                    "Name": "p_genapp_exe"
-                }
+                {"Target": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.pbt","Name": "p_genapp_exe"}
             ],
             "PostCommand": ""
         }
@@ -69,7 +34,7 @@
             "ProjectType": 0,
             "//ProjectType": "0: PB Native; 1: PowerClient; 2: PowerServer; 3: PowerServer 1.0; ",
             "General": {
-                "ExecutableFileName": "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\final-pb\\genapp.exe",
+                "ExecutableFileName": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.exe",
                 "ResourceFileName": "",
                 "ProjectBuildOptions": {
                     "PromptForOverwrite": false,
@@ -119,8 +84,18 @@
                     "FileVersion": "1.0.0.1"
                 },
                 "ExecutableVersionUsedByInstaller": {
-                    "ProductVersion": [1, 0, 0, 1],
-                    "FileVersion": [1, 0, 0, 1]
+                    "ProductVersion": [
+                        1,
+                        0,
+                        0,
+                        1
+                    ],
+                    "FileVersion": [
+                        1,
+                        0,
+                        0,
+                        1
+                    ]
                 }
             },
             "Security": {
@@ -133,12 +108,11 @@
                 }
             },
             "Run": {
-                "Application": "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\final-pb\\genapp.exe",
+                "Application": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.exe",
                 "Arguments": "",
-                "StartIn": "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\final-pb\\",
+                "StartIn": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\",
                 "RuntimePathInApplicationXML": ""
             }
         }
     }
 }
-
