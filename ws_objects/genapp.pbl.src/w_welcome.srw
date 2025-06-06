@@ -116,34 +116,37 @@ string text = "OK"
 boolean default = true
 end type
 
-event clicked;// 1) Instantiate the Transaction object
-//Local variable declarations
+event clicked;// Local variable declarations
 string ls_database, ls_userid, ls_password
-//Assignment statements
-ls_userid = Trim ( sle_userid.text )
-ls_password = Trim ( sle_password.text)
-if ls_userid = "" or ls_password = "" then
+
+// Assignment statements
+ls_userid = Trim(sle_userid.text)
+ls_password = Trim(sle_password.text)
+
+IF ls_userid = "" OR ls_password = "" THEN
 	MessageBox("Login Error", "User ID and Password cannot be Empty.")
-	return
-end if
-if ls_userid="db1" and ls_password ="Akshaya@123" then
-   ls_database="ConnectString='DSN=akshaya_db1;UID=db1;PWD=Akshaya@123'"
-//Instantiate with user-entry values
-   SQLCA.userid = ls_userid
-   SQLCA.dbpass = ls_password
-   SQLCA.dbparm = ls_database
-	gnv_connect = CREATE n_genapp_connectservice
-	if gnv_connect.of_ConnectDB ( )= 0 then
+	RETURN
+END IF
+
+IF ls_userid = "db1" AND ls_password = "Akshaya@123" THEN
+	SQLCA.DBMS = "ODBC"
+	SQLCA.UserID = ls_userid
+	SQLCA.DBPass = ls_password
+	SQLCA.DBParm = "ConnectString='DSN=akshaya_db1;UID=db1;PWD=Akshaya@123'"
+
+	CONNECT USING SQLCA;
+
+	IF SQLCA.SQLCode = 0 THEN
 		bLoginSuccess = true
-		MessageBox("login success", "welcome," + ls_userid)
-		open(w_genapp_frame)
-		close(w_welcome)
-	else
-		MessageBox("login failed","unable to connect to database")
-	end if
-else
-	MessageBox("Login Error","Invalid Username or Password")
-end if
+		MessageBox("Login Success", "Welcome!, " + ls_userid)
+		OPEN(w_genapp_frame)
+		CLOSE(w_welcome)
+	ELSE
+		MessageBox("Connection Failed", SQLCA.SQLErrText)
+	END IF
+ELSE
+	MessageBox("Login Error", "Invalid Username or Password")
+END IF
 
 end event
 
