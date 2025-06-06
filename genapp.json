@@ -1,0 +1,118 @@
+{
+    "MetaInfo": {
+        "IDEVersion": "220",
+        "RuntimeVersion": "22.2.0.3397"
+    },
+    "BuildPlan": {
+        "SourceControl": {
+            "PreCommand": "",
+            "ClearSrcBeforeDownload": false,
+            "SVN": [
+                {"SrcPath": "","User": "","Password": "","DestPath": "","Proxy": {"Ip": "","Port": 0,"Username": "","Password": ""}}
+            ],
+            "Git": [
+                {"SrcPath": "","User": "","Password": "","DestPath": "","Branch": "","Proxy": {"Ip": "","Port": 0,"Username": "","Password": ""}}
+            ],
+            "VSS": [
+                {"SrcPath": "","User": "","Password": "","DestPath": ""}
+            ],
+            "Merging": [
+                {"Target": "","LocalProjectPath": "","RefreshPbl": true}
+            ],
+            "PostCommand": ""
+        },
+        "BuildJob": {
+            "PreCommand": "",
+            "Projects": [
+                {"Target": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.pbt","Name": "p_genapp_exe"}
+            ],
+            "PostCommand": ""
+        }
+    },
+    "Projects": {
+        "p_genapp_exe": {
+            "ProjectType": 0,
+            "//ProjectType": "0: PB Native; 1: PowerClient; 2: PowerServer; 3: PowerServer 1.0; ",
+            "General": {
+                "ExecutableFileName": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.exe",
+                "ResourceFileName": "",
+                "ProjectBuildOptions": {
+                    "PromptForOverwrite": false,
+                    "WindowsClassicStyle": false,
+                    "Rebuild": 0,
+                    "//Rebuild": "0: Incremental; 1: Full; "
+                },
+                "CodeGenerationOptions": {
+                    "Platform": 0,
+                    "//Platform": "0: 32-bit; 1: 64-bit; ",
+                    "32Bit": {
+                        "CodeType": 0,
+                        "//CodeType": "0: Pcode; 1: Machine code; ",
+                        "MachineCode": {
+                            "TraceInformation": false,
+                            "ErrorContextInformation": false,
+                            "Optimization": 0,
+                            "//Optimization": "0: Speed; 1: Space; 2: None; "
+                        }
+                    },
+                    "64Bit": {
+                        "CodeType": 0,
+                        "//CodeType": "0: Pcode; "
+                    },
+                    "EnableDebugSymbol": true
+                }
+            },
+            "Libraries": [
+                {
+                    "Library": "genapp.pbl",
+                    "GeneralPBD": false,
+                    "PBRFileName": ""
+                },
+                {
+                    "Library": "genapp.pbl",
+                    "GeneralPBD": false,
+                    "PBRFileName": ""
+                }
+            ],
+            "Version": {
+                "PropertiesDisplayedForExecutable": {
+                    "ProductName": "PowerBuilder Enterprise Series",
+                    "CompanyName": "Appeon",
+                    "Description": "Appeon Product File",
+                    "Copyright": "",
+                    "ProductVersion": "1.0.0.1",
+                    "FileVersion": "1.0.0.1"
+                },
+                "ExecutableVersionUsedByInstaller": {
+                    "ProductVersion": [
+                        1,
+                        0,
+                        0,
+                        1
+                    ],
+                    "FileVersion": [
+                        1,
+                        0,
+                        0,
+                        1
+                    ]
+                }
+            },
+            "Security": {
+                "ManifestInformation": {
+                    "GenerateOptions": 0,
+                    "//GenerateOptions": "0: No manifest; 1: Embedded Manifest; 2: External manifest; ",
+                    "ExecutionLevel": 0,
+                    "//ExecutionLevel": "0: As Invoker; 1: Highest Available; 2: Require Administrator; ",
+                    "AllowAccessToProtectedSystemUI": false
+                }
+            },
+            "Run": {
+                "Application": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\genapp.exe",
+                "Arguments": "",
+                "StartIn": "C:\\Users\\ACER\\Documents\\onedrive\\Desktop\\practice\\",
+                "RuntimePathInApplicationXML": ""
+            }
+        }
+    }
+}
