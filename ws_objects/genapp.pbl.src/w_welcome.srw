@@ -138,7 +138,7 @@ IF ls_userid = "db1" AND ls_password = "Akshaya@123" THEN
 
 	IF SQLCA.SQLCode = 0 THEN
 		bLoginSuccess = true
-		MessageBox("Login Success", "Welcome, " + ls_userid)
+		MessageBox("Login Success", "Welcome folks, " + ls_userid)
 		OPEN(w_genapp_frame)
 		CLOSE(w_welcome)
 	ELSE
